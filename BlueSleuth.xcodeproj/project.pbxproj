@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8B96119226FB856001E095B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B96118226FB856001E095B /* Media.xcassets */; };
 		A8FD2D4B226FAAD90022DFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D4A226FAAD90022DFDD /* AppDelegate.swift */; };
 		A8FD2D4D226FAAD90022DFDD /* BTListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D4C226FAAD90022DFDD /* BTListVC.swift */; };
 		A8FD2D50226FAAD90022DFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FD2D4E226FAAD90022DFDD /* Main.storyboard */; };
 		A8FD2D53226FAAD90022DFDD /* BlueSleuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D51226FAAD90022DFDD /* BlueSleuth.xcdatamodeld */; };
-		A8FD2D55226FAADD0022DFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD2D54226FAADD0022DFDD /* Assets.xcassets */; };
 		A8FD2D58226FAADD0022DFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FD2D56226FAADD0022DFDD /* LaunchScreen.storyboard */; };
 		A8FD2D60226FAD010022DFDD /* BTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D5F226FAD010022DFDD /* BTTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8B96118226FB856001E095B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		A8FD2D47226FAAD90022DFDD /* BlueSleuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSleuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FD2D4A226FAAD90022DFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8FD2D4C226FAAD90022DFDD /* BTListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTListVC.swift; sourceTree = "<group>"; };
 		A8FD2D4F226FAAD90022DFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8FD2D52226FAAD90022DFDD /* BlueSleuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueSleuth.xcdatamodel; sourceTree = "<group>"; };
-		A8FD2D54226FAADD0022DFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8FD2D57226FAADD0022DFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8FD2D59226FAADD0022DFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8FD2D5F226FAD010022DFDD /* BTTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTTableViewCell.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 				A8FD2D4C226FAAD90022DFDD /* BTListVC.swift */,
 				A8FD2D5F226FAD010022DFDD /* BTTableViewCell.swift */,
 				A8FD2D4E226FAAD90022DFDD /* Main.storyboard */,
-				A8FD2D54226FAADD0022DFDD /* Assets.xcassets */,
+				A8B96118226FB856001E095B /* Media.xcassets */,
 				A8FD2D56226FAADD0022DFDD /* LaunchScreen.storyboard */,
 				A8FD2D59226FAADD0022DFDD /* Info.plist */,
 				A8FD2D51226FAAD90022DFDD /* BlueSleuth.xcdatamodeld */,
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FD2D58226FAADD0022DFDD /* LaunchScreen.storyboard in Resources */,
-				A8FD2D55226FAADD0022DFDD /* Assets.xcassets in Resources */,
+				A8B96119226FB856001E095B /* Media.xcassets in Resources */,
 				A8FD2D50226FAAD90022DFDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C52PFKSQPU;
 				INFOPLIST_FILE = BlueSleuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShowBlender.BlueSleuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C52PFKSQPU;
 				INFOPLIST_FILE = BlueSleuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShowBlender.BlueSleuth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
