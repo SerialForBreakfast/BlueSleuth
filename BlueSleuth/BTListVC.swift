@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class BTListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBAction func refreshTapped(_ sender: Any) {
         
     }
-    
     @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -31,10 +30,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "BTCell", for: indexPath) as? BTTableViewCell {
+            //Dummy data
             cell.nameLabel.text = "This is a test"
             cell.RSSILabel.text = "RSSI = 00000"
             return cell
         }
+        //This should never be called
         return UITableViewCell()
     }
 }

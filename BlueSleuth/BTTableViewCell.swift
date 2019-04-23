@@ -11,7 +11,6 @@ import UIKit
 class BTTableViewCell: UITableViewCell {
 
     @IBOutlet var nameLabel: UILabel!
-    
     @IBOutlet var RSSILabel: UILabel!
     
     override func awakeFromNib() {

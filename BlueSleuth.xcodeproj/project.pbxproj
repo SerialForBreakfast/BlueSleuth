@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8FD2D4B226FAAD90022DFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D4A226FAAD90022DFDD /* AppDelegate.swift */; };
-		A8FD2D4D226FAAD90022DFDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D4C226FAAD90022DFDD /* ViewController.swift */; };
+		A8FD2D4D226FAAD90022DFDD /* BTListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D4C226FAAD90022DFDD /* BTListVC.swift */; };
 		A8FD2D50226FAAD90022DFDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8FD2D4E226FAAD90022DFDD /* Main.storyboard */; };
 		A8FD2D53226FAAD90022DFDD /* BlueSleuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8FD2D51226FAAD90022DFDD /* BlueSleuth.xcdatamodeld */; };
 		A8FD2D55226FAADD0022DFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FD2D54226FAADD0022DFDD /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		A8FD2D47226FAAD90022DFDD /* BlueSleuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSleuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FD2D4A226FAAD90022DFDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8FD2D4C226FAAD90022DFDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8FD2D4C226FAAD90022DFDD /* BTListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTListVC.swift; sourceTree = "<group>"; };
 		A8FD2D4F226FAAD90022DFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8FD2D52226FAAD90022DFDD /* BlueSleuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueSleuth.xcdatamodel; sourceTree = "<group>"; };
 		A8FD2D54226FAADD0022DFDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				A8FD2D4A226FAAD90022DFDD /* AppDelegate.swift */,
-				A8FD2D4C226FAAD90022DFDD /* ViewController.swift */,
+				A8FD2D4C226FAAD90022DFDD /* BTListVC.swift */,
 				A8FD2D5F226FAD010022DFDD /* BTTableViewCell.swift */,
 				A8FD2D4E226FAAD90022DFDD /* Main.storyboard */,
 				A8FD2D54226FAADD0022DFDD /* Assets.xcassets */,
@@ -143,7 +143,7 @@
 			files = (
 				A8FD2D53226FAAD90022DFDD /* BlueSleuth.xcdatamodeld in Sources */,
 				A8FD2D60226FAD010022DFDD /* BTTableViewCell.swift in Sources */,
-				A8FD2D4D226FAAD90022DFDD /* ViewController.swift in Sources */,
+				A8FD2D4D226FAAD90022DFDD /* BTListVC.swift in Sources */,
 				A8FD2D4B226FAAD90022DFDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
